@@ -1,77 +1,116 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta lang="zh-cn">
-    <meta name="author" content="kangfu Shi">
-    <meta name="keywords" content="Kangfu Shi;learning blog;learning spece">
-    <title>htmllearning-KangfuShi</title>
+<header! doctype html>
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta lang="zh-cn;en">
+        <meta name="author" content="kangfu Shi">
+        <meta name="keywords" content="Kangfu Shi;learning blog;learning spece">
+        <title>htmllearning-KangfuShi</title>
+    </head>
     <style>
         .textcenter {
             text-align: center;
         }
 
-        .numletter {
+        .num {
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            font-style: normal;
+        }
+
+        .chart {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            font-style: normal;
+        }
+
+        /*header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background-color: #fff;
+            z-index: 999;
+        }*/
+        time {
             text-align: left;
             font-style: italic;
             font-family: 'Times New Roman', Times, serif;
             font-size: x-large;
         }
 
-        .chart {
-            font-family: 'FangSong', '仿宋', serif;
-            font-size: x-large;
+        a {
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
             font-style: normal;
         }
-
-        header {
-            position: sticky;
-            top: 0;
-            width: 100%;
-            background-color: #fff;
-            z-index: 999;
-        }
     </style>
-</head>
-<body>
-    <header>
-        <h1 class="textcenter">
-            <em>Welcome to My Learning Space</em>
-        </h1>
-        <hr>
-    </header>
-    <section>
-        <h1><time>12/2025</time></h1>
-    </section>
-    <section>
-        <div class="chart">
-            <p class="numletter"><time>12/22/2025</time></p>
+
+    <body>
+        <!--headline-->
+        <header>
+            <h1 class="textcenter">
+                <em>Welcome to My Learning Space</em>
+            </h1>
+            <hr>
+            </hr>
+        </header>
+        <!--main body-->
+        <section>
+            <h1><time id="202512"><i>12/2025<i></time></h1>
+            <p class="num">The end of this year</p>
+            <!--bookmark-->
+            <a href="#20251220">20</a>
+            <a href="#20251221">21</a>
+            <a href="#20251222">22</a>
+            <a href="#20251223">23</a>
+            <p><time id="20251223">12/23/2025</time></p>
+            <p class="chart">
+                &emsp;&emsp;昨天晚上跟网友分享我的博客时偶然发现日期是错的，当时就更改啦。
+                有另一个问题指导几天中午才解决，也发现了我的编码思路是有问题的，原本我是直接把scc样式直接欸套在section标签，导致出现了字体的倾斜。
+                经过问题的纠正和看实例才了解到，最稳健的样式套用是给每个标签都套用上。
+                还学会了两种语言在同一段落时的可以用span标签，我搜索时用了无用标签检索到的，真是<q class="chart">智多星————吴用</q>。
+                <a href="#202512">Back</a>
+            </p>
+            <p><time id="20251222">12/22/2025</time></p>
             <p>
-                <p class="numletter">Funny and Romantic</p>
-                &emsp;&emsp;The weather is so cool recently that I often get up late in these days.
-                I got up at eight o'clock,having breakfast before going to the library,Because I felt tired, I decided
-                to study in a studying room in the first floor.
-                As soon as I had walked into the room, I started to find a seat which makes me comfortable.
+            <p class="num"><i>Funny and Romantic</i></p>
+            <p class="num">
+                &emsp;&emsp;The weather is so cool rencently that I often get up late in these days.
+                I got up at eight o'clock,having breakfast before going to the library,Becuuse I felt tired, I
+                decided
+                to study in a studying romm in the first floor.
+                As soon as I had walk into the room, I started to find a seat which makes me comfortable.
                 A short while gone,I found a desk in a corner,and then I take the one of seats of the desk.I didn't
                 realized a romantic thing will annoying me.<br />
-                &emsp;&emsp;After I sit the my seat, a girl took the seat of the desk. I thought If I could pick up her.
-                Shortly,I threw my thought, because her boyfriend came here. They talked a minute, and the boy sit next
+                &emsp;&emsp;After I sit the my seat, a girl took the seat of the desk. I thought If I could pick up
+                her.
+                Shortly,I threw my thought, because her boyfriend came here. They talked a minute, and the boy sit
+                next
                 to me.
-                It doesn't matter even they called each other's swety nickname.I can't bear until one of the laptop's
-                fan make some noise. I ready to leave, while I had a glance of the laptop screen, in which there is an
+                It doesn't matter even they called each other's swety nickname.I can't bear until one of the
+                laptop's
+                fan make some noise. I ready to leave, while I had a glance of the laptop screen, in which there is
+                an
                 IE browser coin.<br />
-                In the end I had left for the second floor. I thought the experience is so funny and romantic. There are
-                variety of people in the world.In Chinese, we say<q>林子大了什么鸟都有</q>.<br />
-                &emsp;&emsp;真的和李新野描述的一样，没有她们认为的强大的力量在身边，她们就会感到焦虑不安，尽管在校园内。<br />
-                <blockquote> <em>This evening, I was walking at the playground, after I walked two lap, seeing a girl with a
-                    handbag.
-                    I don't care about this. When I near her, she suddenly walked promptly away from me.</em>
-                </blockquote>
-                不愧是清华的高材生，连交友都能搞出一套理论。<q>沈林，你糊涂啊！那武汉大学怎么能跟清华大学比呢？</q>
+                In the end I had left for the second floor. I thought the experience is so funny and romantic. There
+                are
+                variety of people in the world.In Chinese, we say <q class="chart">林子大了什么鸟都有</q>.<br />
+                &emsp;&emsp;<span class="chart">真的和李新野描述的一样，没有她们认为的强大的力量在身边，她们就会感到焦虑不安，尽管在校园内。</span><br />
+            <blockquote>
+                <em>This evening, I was walking at the playground,
+                    after I walked two lap, seeing a girl with ahandbag.
+                    I don't care about this. When I near her, she suddenly walked promptly away from me.<em>
+            </blockquote>
+            <span class="chart">愧是清华的高材生，连交友都能搞出一套理论。<q>沈林，你糊涂啊！那武汉大学怎么能跟清华大学比呢？</q></span>
+            <a href="#202512">Back</a>
             </p>
 
-            <p class="numletter"><time>12/21/2025</time></p>
-            <p>
+
+            <p><time id="20251221">12/21/2025</time></p>
+            <p class="chart">
                 &emsp;&emsp;今天是周日，早上在图书馆发现一本名为《html5+css3 王者归来》的网页设计教程，是中国台湾省的洪锦魁所写。
                 比较合适初学者，没有高深的理论和大片的废话，有的几乎都是知识点的罗列，对非专业爱好者非常友好。<br />
                 &emsp;&emsp;这周四就是圣诞节，晚上在图书馆看完书，踱步来到一条枯河边，用柳条和冬青编织了一个圣诞花环,<a
@@ -79,19 +118,23 @@
                     target="_blank">教程链接</a>。还用使用过的A4纸折了一个纸蝴蝶结，<a
                     href="https://www.bilibili.com/video/BV1MJ411j7RX/?spm_id_from=333.1391.0.0&vd_source=08471841b5aed2d92652ad7bddd9ed03"
                     target="_blank">教程链接</a>。
+                <a href="#202512">Back</a>
             </p>
-            <p class="numletter"><time>12/20/2025</time></p>
-            <p>&emsp;&emsp;我又一次学html，在我意识到作为一个普通人没什么能做，更准确一点说是所作的事情目前没有实质性价值。
+            <p><time id="20251220">12/20/2025</time></p>
+            <p class="chart">&emsp;&emsp;我又一次学html，在我意识到作为一个普通人没什么能做，更准确一点说是所作的事情目前没有实质性价值。
                 但当我我看到有人可以坚持做博客近十年之久，他们留下了时代的记忆。
                 同时，也拥有一片自己的净土，在这个纷乱吵杂的世界之下。<br />
                 &emsp;&emsp;我决定在学习新知识的同时也留下点什么，有朝一日也可以有些回忆，就想鲁迅先生的朝花夕拾。
                 我会尝试用一些简单的英语写我的博客，尽管我目前的英语水平真的很差。四级都没过。
                 也希望这一决定对我的英语学习和应用也会有一点的帮助。<br />
                 &emsp;&emsp;目前对css还是一窍不通，所以美化工作不知道要到什么时候。暂时先用最常见的白底黑字凑合一下。
+                <a href="#202512">Back</a>
             </p>
-        </div>
-    </section>
-    <hr>
-    <footer class="textcenter"><small>The web was made by Kangfu Shi on December 20th in 2025.</small></footer>
-</body>
-</html>
+            </div>
+        </section>
+        <hr>
+        </hr>
+        <footer class="textcenter"><small>The web was made by Kangfu Shi on December 20th in 2025.</small></footer>
+    </body>
+
+    </html>
