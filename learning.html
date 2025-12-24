@@ -43,11 +43,7 @@
         }
 
         .mark {
-            width: 210px;
-            height: 150px;
             background-color: lightskyblue;
-            padding-top: 0px;
-
         }
 
         .mark2 {
@@ -66,9 +62,7 @@
         }
 
         .week {
-            padding: 0px;
-            margin: 0.5px;
-            font-size: 14px;
+            font-style: italic;
 
         }
 
@@ -112,53 +106,81 @@
                     <p class="num">The end of this year</p>
                     <!--bookmark-->
                     <p class="mun" style="pad: 0px;">Bookmark :</p>
-                    <div class="mark">
+                    <table class="mark">
                         <!--weeks-->
-                        <div>
-                            <block class="week">Sun</block>
-                            <block class="week">Mon</block>
-                            <block class="week">Tue</block>
-                            <block class="week">Wed</block>
-                            <block class="week">Thur</block>
-                            <block class="week">Fir</block>
-                            <block class="week">Sat</block>
-                        </div>
+                        <!--table calendar-->
+                        <thead>
+                            <tr>
+                                <th>
+                                    <block class="week">Sun</block>
+                                </th>
+                                <th>
+                                    <block class="week">Mon</block>
+                                </th>
+                                <th>
+                                    <block class="week">Tue</block>
+                                </th>
+                                <th>
+                                    <block class="week">Wed</block>
+                                </th>
+                                <th>
+                                    <block class="week">Thur</block>
+                                </th>
+                                <th>
+                                    <block class="week">Fir</block>
+                                </th>
+                                <th>
+                                    <block class="week">Sat</block>
+                                </th>
+                            </tr>
+                        </thead>
                         <!--days-->
-                        <a href="#20251130" class="mark2">30</a>
-                        <a href="#20251201" class="mark2">01</a>
-                        <a href="#20251202" class="mark2">02</a>
-                        <a href="#20251203" class="mark2">03</a>
-                        <a href="#20251204" class="mark2">04</a>
-                        <a href="#20251205" class="mark2">05</a>
-                        <a href="#20251206" class="mark2">06</a><br />
-                        <a href="#20251207" class="mark2">07</a>
-                        <a href="#20251208" class="mark2">08</a>
-                        <a href="#20251209" class="mark2">09</a>
-                        <a href="#20251210" class="mark2">10</a>
-                        <a href="#20251211" class="mark2">11</a>
-                        <a href="#20251212" class="mark2">12</a>
-                        <a href="#20251213" class="mark2">13</a>
-                        <a href="#20251214" class="mark2">14</a>
-                        <a href="#20251215" class="mark2">15</a>
-                        <a href="#20251216" class="mark2">16</a>
-                        <a href="#20251217" class="mark2">17</a>
-                        <a href="#20251218" class="mark2">18</a>
-                        <a href="#20251219" class="mark2">20</a>
-                        <a href="#20251219" class="mark2">19</a>
-                        <a href="#20251220" class="mark2">21</a>
-                        <a href="#20251222" class="mark2">22</a>
-                        <a href="#20251223" class="mark2">23</a>
-                        <a href="#20251224" class="mark2">24</a>
-                        <a href="#20251225" class="mark2">25</a>
-                        <a href="#20251226" class="mark2">26</a>
-                        <a href="#20251227" class="mark2">27</a>
-                        <a href="#20251218" class="mark2">28</a>
-                        <a href="#20251231" class="mark2">29</a>
-                        <a href="#20251230" class="mark2">30</a>
-                        <a href="#20251231" class="mark2">31</a>
+                        <tr>
+                            <td><a href="#20251130" class="mark2">30</a></td>
+                            <td><a href="#20251201" class="mark2">01</a></td>
+                            <td><a href="#20251202" class="mark2">02</a></td>
+                            <td><a href="#20251203" class="mark2">03</a></td>
+                            <td><a href="#20251204" class="mark2">04</a></td>
+                            <td><a href="#20251205" class="mark2">05</a></td>
+                            <td><a href="#20251206" class="mark2">06</a></td>
+                        </tr>
+                        <tr></tr>
+                        <td><a href="#20251207" class="mark2">07</a></td>
+                        <td><a href="#20251208" class="mark2">08</a></td>
+                        <td><a href="#20251209" class="mark2">09</a></td>
+                        <td><a href="#20251210" class="mark2">10</a></td>
+                        <td><a href="#20251211" class="mark2">11</a></td>
+                        <td><a href="#20251212" class="mark2">12</a></td>
+                        <td><a href="#20251213" class="mark2">13</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#20251214" class="mark2">14</a></td>
+                            <td><a href="#20251215" class="mark2">15</a></td>
+                            <td><a href="#20251216" class="mark2">16</a></td>
+                            <td><a href="#20251217" class="mark2">17</a></td>
+                            <td><a href="#20251218" class="mark2">18</a></td>
+                            <td><a href="#20251219" class="mark2">20</a></td>
+                            <td><a href="#20251219" class="mark2">19</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#20251220" class="mark2">21</a></td>
+                            <td><a href="#20251222" class="mark2">22</a></td>
+                            <td><a href="#20251223" class="mark2">23</a></td>
+                            <td><a href="#20251224" class="mark2">24</a></td>
+                            <td><a href="#20251225" class="mark2">25</a></td>
+                            <td><a href="#20251226" class="mark2">26</a></td>
+                            <td><a href="#20251227" class="mark2">27</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#20251218" class="mark2">28</a></td>
+                            <td><a href="#20251231" class="mark2">29</a></td>
+                            <td><a href="#20251230" class="mark2">30</a></td>
+                            <td><a href="#20251231" class="mark2">31</a></td>
+                        </tr>
                         <!--#date;id='date'-->
                         <!--back to top-->
-                    </div>
+                        </tbody>
+                    </table>
                     <hr><!--horizontal line-->
                     <div>
                         <!--blog date-->
