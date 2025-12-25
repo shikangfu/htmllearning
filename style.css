@@ -50,20 +50,7 @@
     border-radius: 50%;
 }
 
-.mark3 {
-    width: 20PX;
-    height: 20PX;
-    align-items: center;
-    background-color: gray;
-    color: black;
-    text-decoration: none;
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
-    margin-left: 5px;
-    margin-right: 1px;
-    padding: 0px;
-    border-radius: 50%;
-}
+
 
 .mark0 {
     width: 20PX;
@@ -96,12 +83,14 @@
 
 
 header {
-            position: sticky;
-            top: 0;
-            width: 100%;
-            background-color: #fff;
-            z-index: 999;
-        }*/
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
+    */
+
 .simg {
     width: 345.6px;
     height: 460.8px;
@@ -117,7 +106,7 @@ header {
     width: 280px;
     height: 240px;
     padding: 10px;
-    background-color: lightblue;
+    background-color: rgb(101, 194, 225);
 
 }
 
@@ -139,11 +128,16 @@ header {
     justify-content: center;
     align-items: center;
     margin: 5px;
-    background-color: rgb(131, 182, 131);
+    background-color: rgb(100, 212, 100);
     border-radius: 100%;
     text-align: center;
     color: black;
     text-decoration: none;
+}
+
+.mark0 {
+    background-color: gray;
+    color: black;
 }
 
 time {
