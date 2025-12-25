@@ -61,9 +61,47 @@
             border-radius: 50%;
         }
 
+        .mark3 {
+            width: 20PX;
+            height: 20PX;
+            align-items: center;
+            background-color: gray;
+            color: black;
+            text-decoration: none;
+            margin-top: 2.5px;
+            margin-bottom: 2.5px;
+            margin-left: 5px;
+            margin-right: 1px;
+            padding: 0px;
+            border-radius: 50%;
+        }
+
+        .mark0 {
+            width: 20PX;
+            height: 20PX;
+            align-items: center;
+            background-color: gray;
+            color: black;
+            text-decoration: none;
+            margin-top: 2.5px;
+            margin-bottom: 2.5px;
+            margin-left: 5px;
+            margin-right: 1px;
+            padding: 0px;
+            border-radius: 50%;
+        }
+
         .week {
             font-style: italic;
-            font-weight: 100;
+        }
+
+        .flexcontainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 0px;
 
         }
 
@@ -74,6 +112,11 @@
             background-color: #fff;
             z-index: 999;
         }*/
+        .simg {
+            width: 345.6px;
+            height: 460.8px;
+            margin: 10px
+        }
 
         time {
             text-align: left;
@@ -107,7 +150,7 @@
                     <p class="num">The end of this year</p>
                     <!--bookmark-->
                     <p class="mun" style="pad: 0px;">Bookmark :</p>
-                    <table class="mark">
+                    <table class="mark" valign="center">
                         <!--weeks-->
                         <!--table calendar-->
                         <thead>
@@ -137,52 +180,94 @@
                         </thead>
                         <!--days-->
                         <tr>
-                            <td><a href="#20251130" class="mark2">30</a></td>
-                            <td><a href="#20251201" class="mark2">01</a></td>
-                            <td><a href="#20251202" class="mark2">02</a></td>
-                            <td><a href="#20251203" class="mark2">03</a></td>
-                            <td><a href="#20251204" class="mark2">04</a></td>
-                            <td><a href="#20251205" class="mark2">05</a></td>
-                            <td><a href="#20251206" class="mark2">06</a></td>
+                            <td><a href="#20251130" class="mark3">30</a></td>
+                            <td><a href="#20251201" class="mark3">01</a></td>
+                            <td><a href="#20251202" class="mark3">02</a></td>
+                            <td><a href="#20251203" class="mark3">03</a></td>
+                            <td><a href="#20251204" class="mark3">04</a></td>
+                            <td><a href="#20251205" class="mark3">05</a></td>
+                            <td><a href="#20251206" class="mark3">06</a></td>
                         </tr>
                         <tr></tr>
-                        <td><a href="#20251207" class="mark2">07</a></td>
-                        <td><a href="#20251208" class="mark2">08</a></td>
-                        <td><a href="#20251209" class="mark2">09</a></td>
-                        <td><a href="#20251210" class="mark2">10</a></td>
-                        <td><a href="#20251211" class="mark2">11</a></td>
-                        <td><a href="#20251212" class="mark2">12</a></td>
-                        <td><a href="#20251213" class="mark2">13</a></td>
+                        <td><a href="#20251207" class="mark3">07</a></td>
+                        <td><a href="#20251208" class="mark3">08</a></td>
+                        <td><a href="#20251209" class="mark3">09</a></td>
+                        <td><a href="#20251210" class="mark3">10</a></td>
+                        <td><a href="#20251211" class="mark3">11</a></td>
+                        <td><a href="#20251212" class="mark3">12</a></td>
+                        <td><a href="#20251213" class="mark3">13</a></td>
                         </tr>
                         <tr>
-                            <td><a href="#20251214" class="mark2">14</a></td>
-                            <td><a href="#20251215" class="mark2">15</a></td>
-                            <td><a href="#20251216" class="mark2">16</a></td>
-                            <td><a href="#20251217" class="mark2">17</a></td>
-                            <td><a href="#20251218" class="mark2">18</a></td>
-                            <td><a href="#20251219" class="mark2">20</a></td>
-                            <td><a href="#20251219" class="mark2">19</a></td>
+                            <td><a href="#20251214" class="mark3">14</a></td>
+                            <td><a href="#20251215" class="mark3">15</a></td>
+                            <td><a href="#20251216" class="mark3">16</a></td>
+                            <td><a href="#20251217" class="mark3">17</a></td>
+                            <td><a href="#20251218" class="mark3">18</a></td>
+                            <td><a href="#20251219" class="mark3">19</a></td>
+                            <td><a href="#20251220" class="mark2">20</a></td>
+
                         </tr>
                         <tr>
-                            <td><a href="#20251220" class="mark2">21</a></td>
+                            <td><a href="#20251221" class="mark2">21</a></td>
                             <td><a href="#20251222" class="mark2">22</a></td>
                             <td><a href="#20251223" class="mark2">23</a></td>
-                            <td><a href="#20251224" class="mark2">24</a></td>
-                            <td><a href="#20251225" class="mark2">25</a></td>
-                            <td><a href="#20251226" class="mark2">26</a></td>
-                            <td><a href="#20251227" class="mark2">27</a></td>
+                            <td><a href="#20251224" class="mark2" style="background-color:rgb(251, 96, 96);">24</a></td>
+                            <td><a href="#20251225" class="mark2" style="background-color: rgb(251, 96, 96);">25</a>
+                            </td>
+                            <td><a href="#20251226" class="mark0">26</a></td>
+                            <td><a href="#20251227" class="mark0">27</a></td>
                         </tr>
                         <tr>
-                            <td><a href="#20251218" class="mark2">28</a></td>
-                            <td><a href="#20251231" class="mark2">29</a></td>
-                            <td><a href="#20251230" class="mark2">30</a></td>
-                            <td><a href="#20251231" class="mark2">31</a></td>
+                            <td><a href="#20251218" class="mark0">28</a></td>
+                            <td><a href="#20251231" class="mark0">29</a></td>
+                            <td><a href="#20251230" class="mark0">30</a></td>
+                            <td><a href="#20251231" class="mark0">31</a></td>
                         </tr>
                         <!--#date;id='date'-->
                         <!--back to top-->
                         </tbody>
                     </table>
                     <hr><!--horizontal line-->
+                    <div>
+                        <p><time id="20251225">12/25/2025</time></p>
+                        <p>
+                        <p class="num"><i>Christmas</i></p>
+                        <p class="num">
+                            &emsp;&emsp;Today is Christmas. I decided to take a day off. I got up late in this morning,
+                            haveing had a breakfast.
+                            I took my astronomic telescope , dx80eq which is mead by Celestron at the playground to see
+                            the sun.<br />
+                            &emsp;&emsp;During of looking for the sun, I found the sun is so bright that my telescope
+                            can't aim it, because the sunshine is harmful to my eyes. First, I keep my patient seek it,
+                            but a short while, I felt anxious.
+                            I decided to seek out the sun without any protect. After a beam of light shot my lefe eye, I
+                            promptly moved away my eye from the telescope. I realized that I just was beat by the
+                            shinsun, which so dangerous.
+                            Any way ,I had looked at the sun in my sight, and I took some photograph and video with my
+                            smartphone.Here is the video I took,and I upload on bilibil tap the
+                            <!--the video link-->
+                            <a class="num"
+                                href="https://www.bilibili.com/video/BV1mhBDBmE4C/?spm_id_from=888.80997.embed_other.whitelist&t=48.51575&bvid=BV1mhBDBmE4C&vd_source=08471841b5aed2d92652ad7bddd9ed03"
+                                target="_blank">link</a>
+                            to watch.<br />
+                            &emsp;&emsp;Here are some photographs.<br />
+                            <!-- the sun's pictures-->
+                        <div class="flexcontainer">
+                            <img src="/thesun1.jpg" alt="thesun1.jpg" class="simg" />
+                            <img src="/thesun2.jpg" alt="thesun2.jpg" class="simg" />
+                            <img src="/thesun3.jpg" alt="thesun3.jpg" class="simg" />
+                            <img src="/thesun4.jpg" alt="tehsun4.jpg" class="simg" />
+                        </div>
+                        <p class="chart">
+                            &emsp;&emsp;
+                        </p>
+                        </p>
+                        </p>
+                        <a href="#top" class="back">
+                            <div class="tap">Back to the top</div>
+                        </a>
+                    </div>
+                    <hr>
                     <div>
                         <!--blog date-->
                         <p><time id="20251224">12/24/2025</time></p>
@@ -247,6 +332,13 @@
                         </blockquote>
                         <p class="chart">当时这么就那么傻呢，还好我比较吝啬，没有造成任何个人紧经济损失，我还是在乎平等相处的，要不不成剥削了。
                         </p>
+                        <p class="chart">&emsp;&emsp;今天晚上终于用table 标签做了一个类似于日历的书签，本来是打算用flexbox的，可是思考过后，
+                            我对flex不熟练，即便是用了flexbox,margin,padding还有border之类的尺寸也是个问题，
+                            SCC还真得专门学，尤其没做过设计的我多像素的大小也不是太敏感。最后还是用了不带border的table，麻烦是麻烦了一点，好在行是行列是列！
+                            <br />
+                            今天晚上散步时碰见一个女的，好像他们在说圣诞节，说什么根红苗正，我真是不知所云，可能是被某种力量“感化”突然就痰上咽喉，好难受，不得不吐了一口。
+                        </p>
+                        <p class="chart">&emsp;&emsp;<span class="num">Christmas Eve. </span>开心就好。</p>
                         </p>
                         </p>
                         <!-- body end-->
