@@ -1,124 +1,122 @@
- <style>.textcenter {
-     text-align: center;
+.textcenter {
+    text-align: center;
 
- }
+}
 
- .num {
-     text-align: left;
-     /*font-family: 'Times New Roman', Times, serif;*/
-     font-size: 25px;
-     font-style: normal;
- }
+.num {
+    text-align: left;
+    /*font-family: 'Times New Roman', Times, serif;*/
+    font-size: 25px;
+    font-style: normal;
+}
 
- .chart {
-     /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
-     font-size: 20px;
-     font-style: normal;
- }
+.chart {
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-size: 20px;
+    font-style: normal;
+}
 
- .page {
-     margin: 30px;
- }
+.page {
+    margin: 30px;
+}
 
- .back {
+.back {
 
-     text-decoration: none;
-     color: black;
- }
+    text-decoration: none;
+    color: black;
+}
 
- .tap {
-     background-color: lightblue;
-     text-align: center;
- }
+.tap {
+    background-color: lightblue;
+    text-align: center;
+}
 
- .mark {
-     background-color: lightskyblue;
- }
+.mark {
+    background-color: lightskyblue;
+}
 
- .mark2 {
-     width: 20PX;
-     height: 20PX;
-     align-items: center;
-     background-color: lightgreen;
-     color: black;
-     text-decoration: none;
-     margin-top: 2.5px;
-     margin-bottom: 2.5px;
-     margin-left: 5px;
-     margin-right: 1px;
-     padding: 0px;
-     border-radius: 50%;
- }
+.mark2 {
+    width: 20PX;
+    height: 20PX;
+    align-items: center;
+    background-color: lightgreen;
+    color: black;
+    text-decoration: none;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    margin-left: 5px;
+    margin-right: 1px;
+    padding: 0px;
+    border-radius: 50%;
+}
 
- .mark3 {
-     width: 20PX;
-     height: 20PX;
-     align-items: center;
-     background-color: gray;
-     color: black;
-     text-decoration: none;
-     margin-top: 2.5px;
-     margin-bottom: 2.5px;
-     margin-left: 5px;
-     margin-right: 1px;
-     padding: 0px;
-     border-radius: 50%;
- }
+.mark3 {
+    width: 20PX;
+    height: 20PX;
+    align-items: center;
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    margin-left: 5px;
+    margin-right: 1px;
+    padding: 0px;
+    border-radius: 50%;
+}
 
- .mark0 {
-     width: 20PX;
-     height: 20PX;
-     align-items: center;
-     background-color: gray;
-     color: black;
-     text-decoration: none;
-     margin-top: 2.5px;
-     margin-bottom: 2.5px;
-     margin-left: 5px;
-     margin-right: 1px;
-     padding: 0px;
-     border-radius: 50%;
- }
+.mark0 {
+    width: 20PX;
+    height: 20PX;
+    align-items: center;
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    margin-left: 5px;
+    margin-right: 1px;
+    padding: 0px;
+    border-radius: 50%;
+}
 
- .week {
-     font-style: italic;
- }
+.week {
+    font-style: italic;
+}
 
- .flexcontainer {
-     display: flex;
-     flex-direction: row;
-     justify-content: start;
-     align-items: center;
-     flex-wrap: wrap;
-     margin: 0px;
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
 
- }
+}
 
- /*header {
+/*header {
             position: sticky;
             top: 0;
             width: 100%;
             background-color: #fff;
             z-index: 999;
         }*/
- .simg {
-     width: 345.6px;
-     height: 460.8px;
-     margin: 10px
- }
+.simg {
+    width: 345.6px;
+    height: 460.8px;
+    margin: 10px
+}
 
- time {
-     text-align: left;
-     font-style: italic;
-     font-family: 'Times New Roman', Times, serif;
-     font-size: x-large;
- }
+time {
+    text-align: left;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
 
- a {
-     text-align: left;
-     font-family: 'Times New Roman', Times, serif;
-     font-size: 20px;
-     font-style: normal;
- }
-
- </style>
+a {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+}
