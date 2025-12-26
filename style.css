@@ -81,19 +81,32 @@
 
 }
 
-
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     background-color: #fff;
     z-index: 999;
+}*/
+
+.flex-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+
 }
-    */
 
 .simg {
     width: 345.6px;
     height: 460.8px;
+    margin: 10px
+}
+
+.intro {
+
+    padding: 10px;
+    border: 5px dotted pink;
     margin: 10px
 }
 
@@ -107,7 +120,7 @@ header {
     height: 240px;
     padding: 10px;
     background-color: rgb(101, 194, 225);
-
+    margin: 10px
 }
 
 .month {
