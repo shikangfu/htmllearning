@@ -7,6 +7,16 @@
         <meta name="author" content="kangfu Shi">
         <meta name="keywords" content="Kangfu Shi;learning blog;learning spece">
         <title>Welcome Here-KangfuShi</title>
+<script>
+        // 任意资源加载失败就跳转
+        window.addEventListener('error', () => {
+            location.href = 'https://shikangfu.github.io/htmllearning/index.html';
+        });
+        // 8秒超时未加载完成也跳转
+        setTimeout(() => {
+            if (!document.body) location.href = 'https://shikangfu.github.io/htmllearning/index.html';
+        }, 8000);
+    </script>
         <link rel="stylesheet" href="style.css">
     </head>
 
