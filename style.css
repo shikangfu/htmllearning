@@ -19,6 +19,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     margin: 25px 10px;
+    font-style: normal;
 }
 
 /* chinese */
@@ -171,3 +172,4 @@ time {
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
 }
+
