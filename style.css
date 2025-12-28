@@ -1,95 +1,81 @@
+/* header center*/
 .textcenter {
     text-align: center;
 
 }
 
-.num {
-    text-align: left;
-    /*font-family: 'Times New Roman', Times, serif;*/
-    font-size: 25px;
+/* haeder style*/
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: solid;
+}
+
+/*english letter*/
+.letter {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 25px 10px;
+}
+
+/* chinese */
+.chart {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px 5px;
     font-style: normal;
 }
 
-.chart {
-    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
-    font-size: 20px;
-    font-style: normal;
+/* fbi warning */
+.fbi {
+    margin: 10px 20px;
+    text-align: center;
 }
+
+/* rmove the page margin */
+body {
+    margin: 0px;
+}
+
+/* article column */
+article {
+    margin: 10px 30px;
+}
+
+/* fbi box*/
+section {
+    margin: 20px 0px;
+    border-bottom: solid;
+    padding: 5px 15px;
+
+}
+
 
 .page {
     margin: 30px;
 }
 
+/* back tap text */
 .back {
 
     text-decoration: none;
     color: black;
+
 }
 
+/* back tap container*/
 .tap {
     background-color: lightblue;
     text-align: center;
-}
-
-/*.mark {
-    background-color: lightskyblue;
-}
-
-.mark2 {
-    width: 20PX;
-    height: 20PX;
-    align-items: center;
-    background-color: lightgreen;
-    color: black;
-    text-decoration: none;
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
-    margin-left: 5px;
-    margin-right: 1px;
-    padding: 0px;
-    border-radius: 50%;
+    margin-top: 10px;
 }
 
 
-
-.mark0 {
-    width: 20PX;
-    height: 20PX;
-    align-items: center;
-    background-color: gray;
-    color: black;
-    text-decoration: none;
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
-    margin-left: 5px;
-    margin-right: 1px;
-    padding: 0px;
-    border-radius: 50%;
-}
-
-.week {
-    font-style: italic;
-}
-
-.flexcontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0px;
-
-}
-
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #fff;
-    z-index: 999;
-}*/
-
-.flex-top {
+/* home page top*/
+.flex-nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -97,19 +83,21 @@ header {
 
 }
 
+/* small image*/
 .simg {
     width: 345.6px;
     height: 460.8px;
     margin: 10px
 }
 
+/* intro page*/
 .intro {
-
     padding: 10px;
     border: 5px dotted pink;
     margin: 10px
 }
 
+/* flexible box*/
 .flexcontainer {
     display: flex;
     flex-direction: row;
@@ -119,6 +107,7 @@ header {
     margin: 0px;
 }
 
+/* bookmark calendar*/
 .calendar {
     display: flex;
     justify-content: flex-start;
@@ -128,11 +117,12 @@ header {
     width: 280px;
     height: 240px;
     padding: 10px;
-    background-color: rgb(101, 194, 225);
+    border: solid yellowgreen;
     margin: 10px
 }
 
-.month {
+/* bookmark month*/
+.week {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,6 +133,7 @@ header {
     margin-bottom: 0px;
 }
 
+/* book mark days*/
 .markdate {
     display: flex;
     width: 30px;
@@ -155,23 +146,28 @@ header {
     text-align: center;
     color: black;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
+/* not writing bolg*/
 .mark0 {
     background-color: gray;
     color: black;
 }
 
+/* footer */
+footer {
+    text-align: center;
+    border-top: solid;
+    padding: 5px 0px 10px 0px;
+
+}
+
+/* time tag */
 time {
     text-align: left;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
-}
-
-a {
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-style: normal;
 }
