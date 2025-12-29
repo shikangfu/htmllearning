@@ -69,6 +69,7 @@ section {
 
 /* back tap container*/
 .tap {
+
     background-color: lightblue;
     text-align: center;
     margin-top: 10px;
@@ -119,7 +120,23 @@ section {
     height: 240px;
     padding: 10px;
     border: solid yellowgreen;
-    margin: 10px
+}
+
+/* bookmark month*/
+.month {
+    display: flex;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: rgb(100, 212, 100);
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 /* bookmark month*/
@@ -172,4 +189,3 @@ time {
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
 }
-
