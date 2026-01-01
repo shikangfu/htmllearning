@@ -5,8 +5,9 @@
 }
 
 /* haeder style*/
-.head {
+header.head {
     display: flex;
+
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -15,7 +16,7 @@
 }
 
 /*english letter*/
-.letter {
+p.letter {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     margin: 25px 10px;
@@ -23,7 +24,7 @@
 }
 
 /* chinese */
-.chart {
+p.chart {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin: 0px 5px;
@@ -31,36 +32,14 @@
 }
 
 /* fbi warning */
-.fbi {
+h1.fbi {
     margin: 10px 20px;
     text-align: center;
 }
 
-/* rmove the page margin */
-body {
-    margin: 0px;
-}
-
-/* article column */
-article {
-    margin: 10px 30px;
-}
-
-/* fbi box*/
-section {
-    margin: 20px 0px;
-    border-bottom: solid;
-    padding: 5px 15px;
-
-}
-
-
-.page {
-    margin: 30px;
-}
 
 /* back tap text */
-.back {
+a.back {
 
     text-decoration: none;
     color: black;
@@ -68,7 +47,7 @@ section {
 }
 
 /* back tap container*/
-.tap {
+div.tap {
 
     background-color: lightblue;
     text-align: center;
@@ -77,7 +56,7 @@ section {
 
 
 /* home page top*/
-.flex-nav {
+div.flex-nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -86,21 +65,21 @@ section {
 }
 
 /* small image*/
-.simg {
+img.simg {
     width: 345.6px;
     height: 460.8px;
     margin: 10px
 }
 
 /* intro page*/
-.intro {
+div.intro {
     padding: 10px;
     border: 5px dotted pink;
     margin: 10px
 }
 
 /* flexible box*/
-.flexcontainer {
+div.flexcontainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -110,7 +89,7 @@ section {
 }
 
 /* bookmark calendar*/
-.calendar {
+div.calendar {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -120,10 +99,11 @@ section {
     height: 240px;
     padding: 10px;
     border: solid yellowgreen;
+    margin: 10px;
 }
 
 /* bookmark month*/
-.month {
+a.month {
     display: flex;
     width: 80px;
     height: 30px;
@@ -140,7 +120,7 @@ section {
 }
 
 /* bookmark month*/
-.week {
+div.week {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,7 +132,7 @@ section {
 }
 
 /* book mark days*/
-.markdate {
+a.markdate {
     display: flex;
     width: 30px;
     height: 30px;
@@ -169,7 +149,7 @@ section {
 }
 
 /* not writing bolg*/
-.mark0 {
+a.mark0 {
     background-color: gray;
     color: black;
 }
@@ -182,10 +162,28 @@ footer {
 
 }
 
+/* article column */
+article {
+    margin: 10px 30px;
+}
+
+/* fbi box*/
+section {
+    margin: 20px 0px;
+    border-bottom: solid;
+    padding: 5px 15px;
+
+}
+
 /* time tag */
 time {
     text-align: left;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
+}
+
+/* rmove the page margin */
+body {
+    margin: 0px;
 }
