@@ -43,6 +43,7 @@ h1.fbi {
 /* back tap text */
 a.back {
 
+    padding-bottom: 3px;
     text-decoration: none;
     color: black;
 }
@@ -56,12 +57,22 @@ div.tap {
     border-radius: 10px;
 }
 
-/* home page top*/
-div.flex-nav {
+/* month box single*/
+div.flex-navsingle {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* month box  multiple*/
+div.flex-navmultiple {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 /* small image*/
@@ -156,6 +167,8 @@ a.mark0 {
     background-color: gray;
     color: black;
 }
+
+
 
 /* footer */
 footer {
