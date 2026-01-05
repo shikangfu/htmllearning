@@ -49,11 +49,11 @@ a.back {
 /* back tap container*/
 div.tap {
 
-    background-color: lightblue;
+    background-color: lightgray;
     text-align: center;
     margin-top: 10px;
+    border-radius: 10px;
 }
-
 
 /* home page top*/
 div.flex-nav {
@@ -74,8 +74,10 @@ img.simg {
 /* intro page*/
 div.intro {
     padding: 10px;
-    border: 5px dotted pink;
-    margin: 10px
+    border: 5px dotted gray;
+    margin: 10px;
+    border-radius: 10px;
+
 }
 
 /* flexible box*/
@@ -100,6 +102,7 @@ div.calendar {
     padding: 10px;
     border: solid yellowgreen;
     margin: 10px;
+    border-radius: 10px;
 }
 
 /* bookmark month*/
@@ -140,7 +143,7 @@ a.markdate {
     align-items: center;
     margin: 5px;
     background-color: rgb(100, 212, 100);
-    border-radius: 100%;
+    border-radius: 10px;
     text-align: center;
     color: black;
     text-decoration: none;
@@ -167,7 +170,7 @@ article {
     margin: 10px 30px;
 }
 
-/* fbi box*/
+/* section box*/
 section {
     margin: 20px 0px;
     border-bottom: solid;
