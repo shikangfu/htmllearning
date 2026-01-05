@@ -33,7 +33,9 @@ p.chart {
 
 /* fbi warning */
 h1.fbi {
-    margin: 10px 20px;
+    color: white;
+    background-color: red;
+    margin: 10px;
     text-align: center;
 }
 
@@ -43,7 +45,6 @@ a.back {
 
     text-decoration: none;
     color: black;
-
 }
 
 /* back tap container*/
@@ -61,7 +62,6 @@ div.flex-nav {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
-
 }
 
 /* small image*/
@@ -71,7 +71,7 @@ img.simg {
     margin: 10px
 }
 
-/* intro page*/
+/* intro page
 div.intro {
     padding: 10px;
     border: 5px dotted gray;
@@ -79,7 +79,7 @@ div.intro {
     border-radius: 10px;
 
 }
-
+*/
 /* flexible box*/
 div.flexcontainer {
     display: flex;
