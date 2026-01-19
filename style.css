@@ -116,6 +116,28 @@ div.calendar {
     border-radius: 10px;
 }
 
+a.headline {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 0px 5px;
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+div.headlinebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 280px;
+    height: 240px;
+    padding: 30px 10px 24px 10px;
+    border: solid lightgray;
+    margin: 20px;
+    border-radius: 10px;
+}
+
 /* bookmark month*/
 a.month {
     display: flex;
