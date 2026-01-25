@@ -193,6 +193,11 @@ a.mark0 {
     color: black;
 }
 
+h1.topic {
+    text-align: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 /* footer */
