@@ -133,7 +133,7 @@ div.headlinebox {
     padding: 30px 10px 24px 10px;
     border: solid lightgray;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 10%;
 }
 
 /* bookmark month*/
